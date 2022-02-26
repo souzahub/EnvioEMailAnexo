@@ -9,11 +9,11 @@ from email import encoders
 # criar servidor e envia email
 
 
-# 1 - Iniciar o servidor SMTP
+# 1 - Iniciar o servidor SMTP // tem q ativar : https://myaccount.google.com/u/2/security?hl=pt_BR -"acesso a App Seguro ( Ative )
 host = "smtp.gmail.com"
 port = "587"
-login = "seuEmail"
-senha = "*****"
+login = "emailaqui"
+senha = "senhaaqui"
 
 server = smtplib.SMTP(host, port)
 
